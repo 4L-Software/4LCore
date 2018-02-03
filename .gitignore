@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/4L.Core.Entities/obj
+/.vs/4LCore/v14
+/.vs/4LCore/v15

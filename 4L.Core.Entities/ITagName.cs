@@ -4,9 +4,9 @@ using System.Text;
 
 namespace _4L.Core.Entities
 {
-    public interface ITag
+    public interface ITagName
     {
-        ITagName Name { get; set; }
-        object Value { get; set; }
+        Guid Id {get;}
+        string Name { get; set; }
     }
 }
