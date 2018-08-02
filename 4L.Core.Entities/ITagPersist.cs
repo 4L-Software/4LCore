@@ -7,7 +7,7 @@ namespace _4L.Core.Entities
     /// <summary>
     /// Persistance interface for ITag
     /// </summary>
-    interface ITagPersist
+    public interface ITagPersist
     {
         /// <summary>
         /// Loads a list of ITag objects for the corresponding IMeta object
