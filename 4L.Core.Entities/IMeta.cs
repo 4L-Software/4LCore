@@ -43,5 +43,10 @@ namespace _4L.Core.Entities
         /// Returns a read-only collection of the tags in this object's meta data collection
         /// </summary>
         IEnumerable<ITag> Tags { get; }
+
+        /// <summary>
+        /// Unique Id of the meta object, used for persistance purposes
+        /// </summary>
+        Guid Id { get; }
     }
 }

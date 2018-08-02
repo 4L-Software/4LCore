@@ -1,6 +1,7 @@
 ﻿using System;
 using Xunit;
 using _4L.Core.Entities;
+using _4L.Core.Entities.Test.Mocks;
 
 namespace _4L.Core.Entities.Test
 {
@@ -27,25 +28,7 @@ namespace _4L.Core.Entities.Test
         }
     }
 
-    public class TestTag : ITag
-    {
-        public ITagName Name { get; set; }
-        public object Value { get; set; }
-    }
+    
 
-    public class TestTagName : ITagName
-    {
-        private Guid _id = Guid.Empty;
-        public Guid Id 
-        {
-            get
-            {
-                if (_id == Guid.Empty)
-                    _id = Guid.NewGuid();
-
-                return _id;
-            }
-        }
-        public string Name { get; set; }
-    }
+    
 }
