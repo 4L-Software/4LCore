@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace _4L.Core.Entities.Test.Mocks
 {
-    public class TestTagName : ITagName
+    public class M_TagName : ITagName
     {
         private Guid _id = Guid.Empty;
         public Guid Id
