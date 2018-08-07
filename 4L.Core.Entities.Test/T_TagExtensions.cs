@@ -12,8 +12,10 @@ namespace _4L.Core.Entities.Test
         public void _Value_T()
         {
             //create a mocked tag name
-            M_TagName tagName = new M_TagName();
-            tagName.Name = "Test";
+            var tagName = new M_TagName
+            {
+                Name = "Test"
+            };
 
             //create a first mocked tag that has an integer for the value
             M_Tag tag1 = new M_Tag();
